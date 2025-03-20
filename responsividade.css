@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+    article{
+        height: 100%;
+    }
+    #lateral-esquerda{
+        display: none;
+    }
+    #lateral-direita{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+}
+
+@media (orientation:landscape) {
+    header{
+        display: none;
+    }
+}
